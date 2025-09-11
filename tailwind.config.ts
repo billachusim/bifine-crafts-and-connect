@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        craft: {
+          gold: "hsl(var(--craft-gold))",
+          bronze: "hsl(var(--craft-bronze))",
+          deep: "hsl(var(--craft-deep))",
+          warm: "hsl(var(--craft-warm))",
+          light: "hsl(var(--craft-light))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

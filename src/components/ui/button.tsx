@@ -15,6 +15,10 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        craft: "bg-gradient-to-r from-craft-gold to-craft-bronze text-craft-deep shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 font-semibold",
+        hero: "bg-craft-gold text-craft-deep shadow-lg hover:shadow-xl hover:bg-craft-gold/90 transform hover:-translate-y-0.5 transition-all duration-300 font-semibold px-8",
+        heroSecondary: "bg-transparent border-2 border-craft-light text-craft-light hover:bg-craft-light hover:text-craft-deep transition-all duration-300 font-semibold px-8",
+        product: "bg-background border border-border hover:border-craft-gold hover:shadow-lg transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
